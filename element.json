@@ -1,0 +1,828 @@
+{
+   "1": {
+      "name": "Haemophilus",
+      "symbol": "H",
+      "features": "P",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "2": {
+      "name": "Helicobacter",
+      "symbol": "He",
+      "features": "P",
+      "gram": "-T",
+      "Order": "Normal"
+   },
+   "3": {
+      "name": "Listeria",
+      "symbol": "Li",
+      "features": "P",
+      "gram": "+R",
+      "Order": "Normal"
+   },
+   "4": {
+      "name": "Bordetella",
+      "symbol": "Be",
+      "features": "P",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "5": {
+      "name": "Borrelia",
+      "symbol": "Be",
+      "features": "P",
+      "gram": "-T",
+      "Order": "Normal"
+   },
+   "6": {
+      "name": "Clostridium",
+      "symbol": "C",
+      "features": "P",
+      "gram": "+R",
+      "Order": "Normal"
+   },
+   "7": {
+      "name": "Neisseria",
+      "symbol": "N",
+      "features": "P",
+      "gram": "-C",
+      "Order": "Normal"
+   },
+   "8": {
+      "name": "Oceanobacillus",
+      "symbol": "O",
+      "features": "WX",
+      "gram": "+R",
+      "Order": "Normal"
+   },
+   "9": {
+      "name": "Flavobacterium",
+      "symbol": "F",
+      "features": "SWP",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "10": {
+      "name": "Neorickettsia",
+      "symbol": "Ne",
+      "features": "P",
+      "gram": "-C",
+      "Order": "Normal"
+   },
+   "11": {
+      "name": "Nitrobacter",
+      "symbol": "Na",
+      "features": "S",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "12": {
+      "name": "Morganella",
+      "symbol": "Mg",
+      "features": "P",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "13": {
+      "name": "Alcaligenes",
+      "symbol": "Al",
+      "features": "SWP",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "14": {
+      "name": "Sinorhizobium",
+      "symbol": "Si",
+      "features": "S",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "15": {
+      "name": "Pseudomonas",
+      "symbol": "P",
+      "features": "SWP",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "16": {
+      "name": "Staphylococcus",
+      "symbol": "Si",
+      "features": "P",
+      "gram": "+C",
+      "Order": "Normal"
+   },
+   "17": {
+      "name": "Chlamydia",
+      "symbol": "Cl",
+      "features": "P",
+      "gram": "-C",
+      "Order": "Normal"
+   },
+   "18": {
+      "name": "Arthrobacter",
+      "symbol": "Ar",
+      "features": "S",
+      "gram": "+RB",
+      "Order": "Normal"
+   },
+   "19": {
+      "name": "Klebsiella",
+      "symbol": "K",
+      "features": "SWP",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "20": {
+      "name": "Coxiella",
+      "symbol": "Ca",
+      "features": "P",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "21": {
+      "name": "Spirochetes",
+      "symbol": "Sc",
+      "features": "P",
+      "gram": "-T",
+      "Order": "Normal"
+   },
+   "22": {
+      "name": "Thiobacillus",
+      "symbol": "Ti",
+      "features": "SXW",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "23": {
+      "name": "Vibrio",
+      "symbol": "V",
+      "features": "WP",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "24": {
+      "name": "Cryobacterium",
+      "symbol": "Cr",
+      "features": "SWX",
+      "gram": "+R",
+      "Order": "Normal"
+   },
+   "25": {
+      "name": "Methanobacterium",
+      "symbol": "Mn",
+      "features": "X",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "26": {
+      "name": "Ferrimonas",
+      "symbol": "Fe",
+      "features": "W",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "27": {
+      "name": "Colwellia",
+      "symbol": "Co",
+      "features": "WX",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "28": {
+      "name": "Nitratireductor",
+      "symbol": "Ni",
+      "features": "SWH",
+      "gram": "-RTH",
+      "Order": "Normal"
+   },
+   "29": {
+      "name": "Caulobacter",
+      "symbol": "Cu",
+      "features": "W",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "30": {
+      "name": "Zymomonas",
+      "symbol": "Zn",
+      "features": "EW",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "31": {
+      "name": "Gallionella",
+      "symbol": "Ga",
+      "features": "WX",
+      "gram": "-RB",
+      "Order": "Normal"
+   },
+   "32": {
+      "name": "Geobacillus",
+      "symbol": "Ge",
+      "features": "SWX",
+      "gram": "+R",
+      "Order": "Normal"
+   },
+   "33": {
+      "name": "Actinomyces",
+      "symbol": "As",
+      "features": "SP",
+      "gram": "+R",
+      "Order": "Normal"
+   },
+   "34": {
+      "name": "Salmonella",
+      "symbol": "Se",
+      "features": "P",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "35": {
+      "name": "Brucella",
+      "symbol": "Br",
+      "features": "P",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "36": {
+      "name": "Kurthia",
+      "symbol": "Kr",
+      "features": "EP",
+      "gram": "+R",
+      "Order": "Normal"
+   },
+   "37": {
+      "name": "Rhodobacter",
+      "symbol": "Rb",
+      "features": "WS",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "38": {
+      "name": "Streptococcus",
+      "symbol": "Sr",
+      "features": "P",
+      "gram": "+C",
+      "Order": "Normal"
+   },
+   "39": {
+      "name": "Yersinia",
+      "symbol": "Y",
+      "features": "P",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "40": {
+      "name": "Zeaxanthinibacter",
+      "symbol": "Zr",
+      "features": "W",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "41": {
+      "name": "Niabella",
+      "symbol": "Nb",
+      "features": "SW",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "42": {
+      "name": "Mycobacterium",
+      "symbol": "Mo",
+      "features": "PS",
+      "gram": "+R",
+      "Order": "Normal"
+   },
+   "43": {
+      "name": "Tenacibaculum",
+      "symbol": "Tc",
+      "features": "W",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "44": {
+      "name": "Rubrobacter",
+      "symbol": "Ru",
+      "features": "WX",
+      "gram": "+R",
+      "Order": "Normal"
+   },
+   "45": {
+      "name": "Rhizobium",
+      "symbol": "Rh",
+      "features": "S",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "46": {
+      "name": "Pandoraea",
+      "symbol": "Pd",
+      "features": "P",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "47": {
+      "name": "Agromyces",
+      "symbol": "Ag",
+      "features": "S",
+      "gram": "+RF",
+      "Order": "Normal"
+   },
+   "48": {
+      "name": "Candida",
+      "symbol": "Cd",
+      "features": "PE",
+      "gram": "+D",
+      "Order": "Normal"
+   },
+   "49": {
+      "name": "Ignicoccus",
+      "symbol": "Lin",
+      "features": "WX",
+      "gram": "-C",
+      "Order": "Normal"
+   },
+   "50": {
+      "name": "Syntrophomonas",
+      "symbol": "Sn",
+      "features": "W",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "51": {
+      "name": "Salinibacter",
+      "symbol": "Sb",
+      "features": "WX",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "52": {
+      "name": "Thermococcus",
+      "symbol": "Te",
+      "features": "WX",
+      "gram": "-C",
+      "Order": "Normal"
+   },
+   "53": {
+      "name": "Idiomarina",
+      "symbol": "I",
+      "features": "WX",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "54": {
+      "name": "Xenorhabdus",
+      "symbol": "Xe",
+      "features": "P",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "55": {
+      "name": "Cellulomonas",
+      "symbol": "Cs",
+      "features": "S",
+      "gram": "+R",
+      "Order": "Normal"
+   },
+   "56": {
+      "name": "Bacillus",
+      "symbol": "Ba",
+      "features": "SP",
+      "gram": "+R",
+      "Order": "Normal"
+   },
+   "57": {
+      "name": "Lactobacillus",
+      "symbol": "La",
+      "features": "W",
+      "gram": "-R",
+      "Order": "Lan"
+   },
+   "58": {
+      "name": "Cellvibrio",
+      "symbol": "Ce",
+      "features": "WX",
+      "gram": "-R",
+      "Order": "Lan"
+   },
+   "59": {
+      "name": "Prevotella",
+      "symbol": "Pr",
+      "features": "E",
+      "gram": "+C",
+      "Order": "Lan"
+   },
+   "60": {
+      "name": "Nocardia",
+      "symbol": "Nd",
+      "features": "P",
+      "gram": "-R",
+      "Order": "Lan"
+   },
+   "61": {
+      "name": "Promicromonospora",
+      "symbol": "Pm",
+      "features": "W",
+      "gram": "-T",
+      "Order": "Lan"
+   },
+   "62": {
+      "name": "Streptomyces",
+      "symbol": "Sm",
+      "features": "SW",
+      "gram": "+R",
+      "Order": "Lan"
+   },
+   "63": {
+      "name": "Eubacterium",
+      "symbol": "Eu",
+      "features": "P",
+      "gram": "-R",
+      "Order": "Lan"
+   },
+   "64": {
+      "name": "Gordonia",
+      "symbol": "Gd",
+      "features": "SW",
+      "gram": "+R",
+      "Order": "Lan"
+   },
+   "65": {
+      "name": "Tepidibacter",
+      "symbol": "Tb",
+      "features": "SW",
+      "gram": "-R",
+      "Order": "Lan"
+   },
+   "66": {
+      "name": "Dyadobacter",
+      "symbol": "Dy",
+      "features": "SP",
+      "gram": "+RB",
+      "Order": "Lan"
+   },
+   "67": {
+      "name": "Holospora",
+      "symbol": "Ho",
+      "features": "SP",
+      "gram": "+R",
+      "Order": "Lan"
+   },
+   "68": {
+      "name": "Escherichia",
+      "symbol": "Er",
+      "features": "E",
+      "gram": "+R",
+      "Order": "Lan"
+   },
+   "69": {
+      "name": "Thermus",
+      "symbol": "Tm",
+      "features": "P",
+      "gram": "-R",
+      "Order": "Lan"
+   },
+   "70": {
+      "name": "Youngiibacter",
+      "symbol": "Yb",
+      "features": "P",
+      "gram": "+R",
+      "Order": "Lan"
+   },
+   "71": {
+      "name": "Leuconostoc",
+      "symbol": "Lu",
+      "features": "E",
+      "gram": "+C",
+      "Order": "Lan"
+   },
+   "72": {
+      "name": "Hoeflea",
+      "symbol": "Hf",
+      "features": "P",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "73": {
+      "name": "Thioalkalivibrio",
+      "symbol": "Ta",
+      "features": "PE",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "74": {
+      "name": "Weissella",
+      "symbol": "W",
+      "features": "WX",
+      "gram": "-F",
+      "Order": "Normal"
+   },
+   "75": {
+      "name": "Roseomonas",
+      "symbol": "Re",
+      "features": "WS",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "76": {
+      "name": "Oceanospirillum",
+      "symbol": "Os",
+      "features": "P",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "77": {
+      "name": "Isoptericola",
+      "symbol": "Ir",
+      "features": "W",
+      "gram": "+R",
+      "Order": "Normal"
+   },
+   "78": {
+      "name": "Pasteurella",
+      "symbol": "Pt",
+      "features": "SE",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "79": {
+      "name": "Aureobacterium",
+      "symbol": "Au",
+      "features": "WX",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "80": {
+      "name": "Hydrogenophaga",
+      "symbol": "Hg",
+      "features": "S",
+      "gram": "+F",
+      "Order": "Normal"
+   },
+   "81": {
+      "name": "Tsukamurella",
+      "symbol": "Ti",
+      "features": "W",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "82": {
+      "name": "Paenibacillus",
+      "symbol": "Pb",
+      "features": "PS",
+      "gram": "+R",
+      "Order": "Normal"
+   },
+   "83": {
+      "name": "Bifidobacterium",
+      "symbol": "Bi",
+      "features": "W",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "84": {
+      "name": "Porphyromonas",
+      "symbol": "Po",
+      "features": "WP",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "85": {
+      "name": "Atopobium",
+      "symbol": "At",
+      "features": "VAIALEP",
+      "gram": "VARIABL",
+      "Order": "Normal"
+   },
+   "86": {
+      "name": "Ruminococcus",
+      "symbol": "Rn",
+      "features": "S",
+      "gram": "+B",
+      "Order": "Normal"
+   },
+   "87": {
+      "name": "Francisella",
+      "symbol": "Fr",
+      "features": "P",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "88": {
+      "name": "Ralstonia",
+      "symbol": "Ra",
+      "features": "S",
+      "gram": "+B",
+      "Order": "Normal"
+   },
+   "89": {
+      "name": "Acetobacter",
+      "symbol": "Ac",
+      "features": "E",
+      "gram": "+R",
+      "Order": "Actin"
+   },
+   "90": {
+      "name": "Thalassomonas",
+      "symbol": "Th",
+      "features": "S",
+      "gram": "-R",
+      "Order": "Actin"
+   },
+   "91": {
+      "name": "Paracoccus",
+      "symbol": "Pa",
+      "features": "P",
+      "gram": "-R",
+      "Order": "Actin"
+   },
+   "92": {
+      "name": "Undibacterium",
+      "symbol": "U",
+      "features": "SP",
+      "gram": "+RF",
+      "Order": "Actin"
+   },
+   "93": {
+      "name": "Neptunomonas",
+      "symbol": "Np",
+      "features": "S",
+      "gram": "+R",
+      "Order": "Actin"
+   },
+   "94": {
+      "name": "Pusillimonas",
+      "symbol": "Pu",
+      "features": "PS",
+      "gram": "+",
+      "Order": "Actin"
+   },
+   "95": {
+      "name": "Amphibacillus",
+      "symbol": "Am",
+      "features": "SWP",
+      "gram": "+R",
+      "Order": "Actin"
+   },
+   "96": {
+      "name": "Campylobacter",
+      "symbol": "Cm",
+      "features": "SP",
+      "gram": "+RB",
+      "Order": "Actin"
+   },
+   "97": {
+      "name": "Burkholderia",
+      "symbol": "Bk",
+      "features": "WP",
+      "gram": "-R",
+      "Order": "Actin"
+   },
+   "98": {
+      "name": "Chloroflexus",
+      "symbol": "Cf",
+      "features": "SWX",
+      "gram": "-R",
+      "Order": "Actin"
+   },
+   "99": {
+      "name": "Enterococcus",
+      "symbol": "Es",
+      "features": "W",
+      "gram": "-R",
+      "Order": "Actin"
+   },
+   "100": {
+      "name": "Fusobacterium",
+      "symbol": "Fm",
+      "features": "P",
+      "gram": "-R",
+      "Order": "Actin"
+   },
+   "101": {
+      "name": "Modestobacter",
+      "symbol": "Md",
+      "features": "WX",
+      "gram": "-R",
+      "Order": "Actin"
+   },
+   "102": {
+      "name": "Nonomurea",
+      "symbol": "No",
+      "features": "W",
+      "gram": "-R",
+      "Order": "Actin"
+   },
+   "103": {
+      "name": "Leptospira",
+      "symbol": "Lr",
+      "features": "E",
+      "gram": "+C",
+      "Order": "Actin"
+   },
+   "104": {
+      "name": "Roseiflexus",
+      "symbol": "Rf",
+      "features": "E",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "105": {
+      "name": "Desulfovibrio",
+      "symbol": "Db",
+      "features": "W",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "106": {
+      "name": "Shigella",
+      "symbol": "Sg",
+      "features": "WS",
+      "gram": "-C",
+      "Order": "Normal"
+   },
+   "107": {
+      "name": "Bhargavaea",
+      "symbol": "Bh",
+      "features": "W",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "108": {
+      "name": "Herbaspirillum",
+      "symbol": "Hs",
+      "features": "W",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "109": {
+      "name": "Marinobacter",
+      "symbol": "Mt",
+      "features": "SW",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "110": {
+      "name": "Dactylosporangium",
+      "symbol": "Ds",
+      "features": "SWX",
+      "gram": "+R",
+      "Order": "Normal"
+   },
+   "111": {
+      "name": "Ruegeria",
+      "symbol": "Rg",
+      "features": "P",
+      "gram": "-T",
+      "Order": "Normal"
+   },
+   "112": {
+      "name": "Corynebacterium",
+      "symbol": "Cn",
+      "features": "PS",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "113": {
+      "name": "Novosphingobium",
+      "symbol": "Uut",
+      "features": "WX",
+      "gram": "-F",
+      "Order": "Normal"
+   },
+   "114": {
+      "name": "Flexibacter",
+      "symbol": "Fl",
+      "features": "P",
+      "gram": "+C",
+      "Order": "Normal"
+   },
+   "115": {
+      "name": "Magnetococcus",
+      "symbol": "Uup",
+      "features": "P",
+      "gram": "-R",
+      "Order": "Normal"
+   },
+   "116": {
+      "name": "Lechevalieria",
+      "symbol": "Lv",
+      "features": "SX",
+      "gram": "+R",
+      "Order": "Normal"
+   },
+   "117": {
+      "name": "Tessaracoccus",
+      "symbol": "Uus",
+      "features": "SP",
+      "gram": "+R",
+      "Order": "Normal"
+   },
+   "118": {
+      "name": "Oligella",
+      "symbol": "Uuo",
+      "features": "P",
+      "gram": "-T",
+      "Order": "Normal"
+   }
+}

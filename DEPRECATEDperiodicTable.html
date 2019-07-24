@@ -1,0 +1,2673 @@
+<html>
+ <!--
+CITATIONS
+CSS Periodic Table. (2018). CodePen. Retrieved 30 December 2018, from https://codepen.io/nemophrost/pen/EkImb
+
+https://www.etsy.com/listing/244858329/dr-warhols-periodic-table-of-microbes
+
+Warhol, J. (2018). Dr Warhol's Periodic Table of Microbes, The Small Guide to Small Things Kindle Edition. Warhol Institute, LLC
+-->
+ <head>
+  <link href="periodicTable.css" rel="stylesheet"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="periodicAjax.js"></script>
+ </head>
+ <body>
+  <div class="periodic">
+   <div class="periodic-row">
+    <div class="cell">
+     <div class="element" id="id1">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        1
+       </span>
+      </div>
+      <div class="symbol">
+       H
+      </div>
+      <div class="at_details">
+       Haemophilus
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+     <h1 class="title">
+      Periodic Table of Microbes
+     </h1>
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+     <div class="element" id="id2">
+      <div class="at_num">
+       <span class="gram_shape">
+        -T
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        2
+       </span>
+      </div>
+      <div class="symbol">
+       He
+      </div>
+      <div class="at_details">
+       Helicobacter
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="periodic-row">
+    <div class="cell">
+     <div class="element" id="id3">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        3
+       </span>
+      </div>
+      <div class="symbol">
+       Li
+      </div>
+      <div class="at_details">
+       Listeria
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id4">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        4
+       </span>
+      </div>
+      <div class="symbol">
+       Be
+      </div>
+      <div class="at_details">
+       Bordetella
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+     <div class="key">
+      <!--KEY --------------------------- -->
+      <div class="keyTitle">
+       <h2>
+        Periodic Table Key
+       </h2>
+      </div>
+      <div class="column gram-stain-col">
+       <h3>
+        GRAM STAIN
+       </h3>
+       <div>
+        (+) Gram Negative
+       </div>
+       <div>
+        (+) Gram Positive
+       </div>
+      </div>
+      <div class="column shape-col">
+       <h3>
+        SHAPE
+       </h3>
+       <div>
+        (R) rod
+       </div>
+       <div>
+        (C) coccus
+       </div>
+       <div>
+        (T) twisted, spiral, helix
+       </div>
+       <div>
+        (B) branched
+       </div>
+       <div>
+        (F) filaments
+       </div>
+       <div>
+        (D) dimorphic
+       </div>
+      </div>
+      <div class="column features-col">
+       <h3>
+        FEATURES
+       </h3>
+       <div>
+        (P) pathogen
+       </div>
+       <div>
+        (W) water
+       </div>
+       <div>
+        (S) soil
+       </div>
+       <div>
+        (E) edibles
+       </div>
+       <div>
+        (X) extreme
+       </div>
+      </div>
+     </div>
+     <!-- END KEY --------------------------- -->
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+     <div class="element" id="id5">
+      <div class="at_num">
+       <span class="gram_shape">
+        -T
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        5
+       </span>
+      </div>
+      <div class="symbol">
+       B
+      </div>
+      <div class="at_details">
+       Borrelia
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id6">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        6
+       </span>
+      </div>
+      <div class="symbol">
+       C
+      </div>
+      <div class="at_details">
+       Clostridium
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id7">
+      <div class="at_num">
+       <span class="gram_shape">
+        -C
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        7
+       </span>
+      </div>
+      <div class="symbol">
+       N
+      </div>
+      <div class="at_details">
+       Neisseria
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id8">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        WX
+       </span>
+       <span class="number">
+        8
+       </span>
+      </div>
+      <div class="symbol">
+       O
+      </div>
+      <div class="at_details">
+       Oceanobacillus
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id9">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        SWP
+       </span>
+       <span class="number">
+        9
+       </span>
+      </div>
+      <div class="symbol">
+       F
+      </div>
+      <div class="at_details">
+       Flavobacterium
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id10">
+      <div class="at_num">
+       <span class="gram_shape">
+        -C
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        10
+       </span>
+      </div>
+      <div class="symbol">
+       Ne
+      </div>
+      <div class="at_details">
+       Neorickettsia
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="periodic-row">
+    <div class="cell">
+     <div class="element" id="id11">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        S
+       </span>
+       <span class="number">
+        11
+       </span>
+      </div>
+      <div class="symbol">
+       Na
+      </div>
+      <div class="at_details">
+       Nitrobacter
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id12">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        12
+       </span>
+      </div>
+      <div class="symbol">
+       Mg
+      </div>
+      <div class="at_details">
+       Morganella
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+     <div class="element" id="id13">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        SWP
+       </span>
+       <span class="number">
+        13
+       </span>
+      </div>
+      <div class="symbol">
+       Al
+      </div>
+      <div class="at_details">
+       Alcaligenes
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id14">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        S
+       </span>
+       <span class="number">
+        14
+       </span>
+      </div>
+      <div class="symbol">
+       Si
+      </div>
+      <div class="at_details">
+       Sinorhizobium
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id15">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        SWP
+       </span>
+       <span class="number">
+        15
+       </span>
+      </div>
+      <div class="symbol">
+       P
+      </div>
+      <div class="at_details">
+       Pseudomonas
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id16">
+      <div class="at_num">
+       <span class="gram_shape">
+        +C
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        16
+       </span>
+      </div>
+      <div class="symbol">
+       S
+      </div>
+      <div class="at_details">
+       Staphylococcus
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id17">
+      <div class="at_num">
+       <span class="gram_shape">
+        -C
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        17
+       </span>
+      </div>
+      <div class="symbol">
+       Cl
+      </div>
+      <div class="at_details">
+       Chlamydia
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id18">
+      <div class="at_num">
+       <span class="gram_shape">
+        +RB
+       </span>
+       <span class="feature">
+        S
+       </span>
+       <span class="number">
+        18
+       </span>
+      </div>
+      <div class="symbol">
+       Ar
+      </div>
+      <div class="at_details">
+       Arthrobacter
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="periodic-row">
+    <div class="cell">
+     <div class="element" id="id19">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        SWP
+       </span>
+       <span class="number">
+        19
+       </span>
+      </div>
+      <div class="symbol">
+       K
+      </div>
+      <div class="at_details">
+       Klebsiella
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id20">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        20
+       </span>
+      </div>
+      <div class="symbol">
+       Ca
+      </div>
+      <div class="at_details">
+       Coxiella
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id21">
+      <div class="at_num">
+       <span class="gram_shape">
+        -T
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        21
+       </span>
+      </div>
+      <div class="symbol">
+       Sc
+      </div>
+      <div class="at_details">
+       Spirochetes
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id22">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        SXW
+       </span>
+       <span class="number">
+        22
+       </span>
+      </div>
+      <div class="symbol">
+       Ti
+      </div>
+      <div class="at_details">
+       Thiobacillus
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id23">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        WP
+       </span>
+       <span class="number">
+        23
+       </span>
+      </div>
+      <div class="symbol">
+       V
+      </div>
+      <div class="at_details">
+       Vibrio
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id24">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        SWX
+       </span>
+       <span class="number">
+        24
+       </span>
+      </div>
+      <div class="symbol">
+       Cr
+      </div>
+      <div class="at_details">
+       Cryobacterium
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id25">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        X
+       </span>
+       <span class="number">
+        25
+       </span>
+      </div>
+      <div class="symbol">
+       Mn
+      </div>
+      <div class="at_details">
+       Methanobacterium
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id26">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        W
+       </span>
+       <span class="number">
+        26
+       </span>
+      </div>
+      <div class="symbol">
+       Fe
+      </div>
+      <div class="at_details">
+       Ferrimonas
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id27">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        WX
+       </span>
+       <span class="number">
+        27
+       </span>
+      </div>
+      <div class="symbol">
+       Co
+      </div>
+      <div class="at_details">
+       Colwellia
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id28">
+      <div class="at_num">
+       <span class="gram_shape">
+        -RTH
+       </span>
+       <span class="feature">
+        SWH
+       </span>
+       <span class="number">
+        28
+       </span>
+      </div>
+      <div class="symbol">
+       Ni
+      </div>
+      <div class="at_details">
+       Nitratireductor
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id29">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        W
+       </span>
+       <span class="number">
+        29
+       </span>
+      </div>
+      <div class="symbol">
+       Cu
+      </div>
+      <div class="at_details">
+       Caulobacter
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id30">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        EW
+       </span>
+       <span class="number">
+        30
+       </span>
+      </div>
+      <div class="symbol">
+       Zn
+      </div>
+      <div class="at_details">
+       Zymomonas
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id31">
+      <div class="at_num">
+       <span class="gram_shape">
+        -RB
+       </span>
+       <span class="feature">
+        WX
+       </span>
+       <span class="number">
+        31
+       </span>
+      </div>
+      <div class="symbol">
+       Ga
+      </div>
+      <div class="at_details">
+       Gallionella
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id32">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        SWX
+       </span>
+       <span class="number">
+        32
+       </span>
+      </div>
+      <div class="symbol">
+       Ge
+      </div>
+      <div class="at_details">
+       Geobacillus
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id33">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        SP
+       </span>
+       <span class="number">
+        33
+       </span>
+      </div>
+      <div class="symbol">
+       As
+      </div>
+      <div class="at_details">
+       Actinomyces
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id34">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        34
+       </span>
+      </div>
+      <div class="symbol">
+       Se
+      </div>
+      <div class="at_details">
+       Salmonella
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id35">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        35
+       </span>
+      </div>
+      <div class="symbol">
+       Br
+      </div>
+      <div class="at_details">
+       Brucella
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id36">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        EP
+       </span>
+       <span class="number">
+        36
+       </span>
+      </div>
+      <div class="symbol">
+       Kr
+      </div>
+      <div class="at_details">
+       Kurthia
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="periodic-row">
+    <div class="cell">
+     <div class="element" id="id37">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        WS
+       </span>
+       <span class="number">
+        37
+       </span>
+      </div>
+      <div class="symbol">
+       Rb
+      </div>
+      <div class="at_details">
+       Rhodobacter
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id38">
+      <div class="at_num">
+       <span class="gram_shape">
+        +C
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        38
+       </span>
+      </div>
+      <div class="symbol">
+       Sr
+      </div>
+      <div class="at_details">
+       Streptococcus
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id39">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        39
+       </span>
+      </div>
+      <div class="symbol">
+       Y
+      </div>
+      <div class="at_details">
+       Yersinia
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id40">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        W
+       </span>
+       <span class="number">
+        40
+       </span>
+      </div>
+      <div class="symbol">
+       Zr
+      </div>
+      <div class="at_details">
+       Zeaxanthinibacter
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id41">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        SW
+       </span>
+       <span class="number">
+        41
+       </span>
+      </div>
+      <div class="symbol">
+       Nb
+      </div>
+      <div class="at_details">
+       Niabella
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id42">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        PS
+       </span>
+       <span class="number">
+        42
+       </span>
+      </div>
+      <div class="symbol">
+       Mo
+      </div>
+      <div class="at_details">
+       Mycobacterium
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id43">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        W
+       </span>
+       <span class="number">
+        43
+       </span>
+      </div>
+      <div class="symbol">
+       Tc
+      </div>
+      <div class="at_details">
+       Tenacibaculum
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id44">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        WX
+       </span>
+       <span class="number">
+        44
+       </span>
+      </div>
+      <div class="symbol">
+       Ru
+      </div>
+      <div class="at_details">
+       Rubrobacter
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id45">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        S
+       </span>
+       <span class="number">
+        45
+       </span>
+      </div>
+      <div class="symbol">
+       Rh
+      </div>
+      <div class="at_details">
+       Rhizobium
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id46">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        46
+       </span>
+      </div>
+      <div class="symbol">
+       Pd
+      </div>
+      <div class="at_details">
+       Pandoraea
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id47">
+      <div class="at_num">
+       <span class="gram_shape">
+        +RF
+       </span>
+       <span class="feature">
+        S
+       </span>
+       <span class="number">
+        47
+       </span>
+      </div>
+      <div class="symbol">
+       Ag
+      </div>
+      <div class="at_details">
+       Agromyces
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id48">
+      <div class="at_num">
+       <span class="gram_shape">
+        +D
+       </span>
+       <span class="feature">
+        PE
+       </span>
+       <span class="number">
+        48
+       </span>
+      </div>
+      <div class="symbol">
+       Cd
+      </div>
+      <div class="at_details">
+       Candida
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id49">
+      <div class="at_num">
+       <span class="gram_shape">
+        -C
+       </span>
+       <span class="feature">
+        WX
+       </span>
+       <span class="number">
+        49
+       </span>
+      </div>
+      <div class="symbol">
+       In
+      </div>
+      <div class="at_details">
+       Ignicoccus
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id50">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        W
+       </span>
+       <span class="number">
+        50
+       </span>
+      </div>
+      <div class="symbol">
+       Sn
+      </div>
+      <div class="at_details">
+       Syntrophomonas
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id51">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        WX
+       </span>
+       <span class="number">
+        51
+       </span>
+      </div>
+      <div class="symbol">
+       Sb
+      </div>
+      <div class="at_details">
+       Salinibacter
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id52">
+      <div class="at_num">
+       <span class="gram_shape">
+        -C
+       </span>
+       <span class="feature">
+        WX
+       </span>
+       <span class="number">
+        52
+       </span>
+      </div>
+      <div class="symbol">
+       Te
+      </div>
+      <div class="at_details">
+       Thermococcus
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id53">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        WX
+       </span>
+       <span class="number">
+        53
+       </span>
+      </div>
+      <div class="symbol">
+       I
+      </div>
+      <div class="at_details">
+       Idiomarina
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id54">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        54
+       </span>
+      </div>
+      <div class="symbol">
+       Xe
+      </div>
+      <div class="at_details">
+       Xenorhabdus
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="periodic-row">
+    <div class="cell">
+     <div class="element" id="id55">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        S
+       </span>
+       <span class="number">
+        55
+       </span>
+      </div>
+      <div class="symbol">
+       Cs
+      </div>
+      <div class="at_details">
+       Cellulomonas
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id56">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        SP
+       </span>
+       <span class="number">
+        56
+       </span>
+      </div>
+      <div class="symbol">
+       Ba
+      </div>
+      <div class="at_details">
+       Bacillus
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+     <div class="element" id="id57">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        W
+       </span>
+       <span class="number">
+        57
+       </span>
+      </div>
+      <div class="symbol">
+       Hf
+      </div>
+      <div class="at_details">
+       Hoeflea
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id58">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        WX
+       </span>
+       <span class="number">
+        58
+       </span>
+      </div>
+      <div class="symbol">
+       Ta
+      </div>
+      <div class="at_details">
+       Thioalkalivibrio
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id59">
+      <div class="at_num">
+       <span class="gram_shape">
+        +C
+       </span>
+       <span class="feature">
+        E
+       </span>
+       <span class="number">
+        59
+       </span>
+      </div>
+      <div class="symbol">
+       W
+      </div>
+      <div class="at_details">
+       Weissella
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id60">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        60
+       </span>
+      </div>
+      <div class="symbol">
+       Re
+      </div>
+      <div class="at_details">
+       Roseomonas
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id61">
+      <div class="at_num">
+       <span class="gram_shape">
+        -T
+       </span>
+       <span class="feature">
+        W
+       </span>
+       <span class="number">
+        61
+       </span>
+      </div>
+      <div class="symbol">
+       Os
+      </div>
+      <div class="at_details">
+       Oceanospirillum
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id62">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        SW
+       </span>
+       <span class="number">
+        62
+       </span>
+      </div>
+      <div class="symbol">
+       Ir
+      </div>
+      <div class="at_details">
+       Isoptericola
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id63">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        63
+       </span>
+      </div>
+      <div class="symbol">
+       Pt
+      </div>
+      <div class="at_details">
+       Pasteurella
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id64">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        SW
+       </span>
+       <span class="number">
+        64
+       </span>
+      </div>
+      <div class="symbol">
+       Au
+      </div>
+      <div class="at_details">
+       Aureobacterium
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id65">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        SW
+       </span>
+       <span class="number">
+        65
+       </span>
+      </div>
+      <div class="symbol">
+       Hg
+      </div>
+      <div class="at_details">
+       Hydrogenophaga
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id66">
+      <div class="at_num">
+       <span class="gram_shape">
+        +RB
+       </span>
+       <span class="feature">
+        SP
+       </span>
+       <span class="number">
+        66
+       </span>
+      </div>
+      <div class="symbol">
+       Tl
+      </div>
+      <div class="at_details">
+       Tsukamurella
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id67">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        SP
+       </span>
+       <span class="number">
+        67
+       </span>
+      </div>
+      <div class="symbol">
+       Pb
+      </div>
+      <div class="at_details">
+       Paenibacillus
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id68">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        E
+       </span>
+       <span class="number">
+        68
+       </span>
+      </div>
+      <div class="symbol">
+       Bi
+      </div>
+      <div class="at_details">
+       Bifidobacterium
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id69">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        69
+       </span>
+      </div>
+      <div class="symbol">
+       Po
+      </div>
+      <div class="at_details">
+       Porphyromonas
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id70">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        70
+       </span>
+      </div>
+      <div class="symbol">
+       At
+      </div>
+      <div class="at_details">
+       Atopobium
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id71">
+      <div class="at_num">
+       <span class="gram_shape">
+        +C
+       </span>
+       <span class="feature">
+        E
+       </span>
+       <span class="number">
+        71
+       </span>
+      </div>
+      <div class="symbol">
+       Rn
+      </div>
+      <div class="at_details">
+       Ruminococcus
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="periodic-row">
+    <div class="cell">
+     <div class="element" id="id72">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        72
+       </span>
+      </div>
+      <div class="symbol">
+       Fr
+      </div>
+      <div class="at_details">
+       Francisella
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id73">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        PE
+       </span>
+       <span class="number">
+        73
+       </span>
+      </div>
+      <div class="symbol">
+       Ra
+      </div>
+      <div class="at_details">
+       Ralstonia
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+     <div class="element" id="id74">
+      <div class="at_num">
+       <span class="gram_shape">
+        -F
+       </span>
+       <span class="feature">
+        WX
+       </span>
+       <span class="number">
+        74
+       </span>
+      </div>
+      <div class="symbol">
+       Rf
+      </div>
+      <div class="at_details">
+       Roseiflexus
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id75">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        WS
+       </span>
+       <span class="number">
+        75
+       </span>
+      </div>
+      <div class="symbol">
+       Db
+      </div>
+      <div class="at_details">
+       Desulfovibrio
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id76">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        76
+       </span>
+      </div>
+      <div class="symbol">
+       Sg
+      </div>
+      <div class="at_details">
+       Shigella
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id77">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        W
+       </span>
+       <span class="number">
+        77
+       </span>
+      </div>
+      <div class="symbol">
+       Bh
+      </div>
+      <div class="at_details">
+       Bhargavaea
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id78">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        SE
+       </span>
+       <span class="number">
+        78
+       </span>
+      </div>
+      <div class="symbol">
+       Hs
+      </div>
+      <div class="at_details">
+       Herbaspirillum
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id79">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        WX
+       </span>
+       <span class="number">
+        79
+       </span>
+      </div>
+      <div class="symbol">
+       Mt
+      </div>
+      <div class="at_details">
+       Marinobacter
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id80">
+      <div class="at_num">
+       <span class="gram_shape">
+        +F
+       </span>
+       <span class="feature">
+        S
+       </span>
+       <span class="number">
+        80
+       </span>
+      </div>
+      <div class="symbol">
+       Ds
+      </div>
+      <div class="at_details">
+       Dactylosporangium
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id81">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        W
+       </span>
+       <span class="number">
+        81
+       </span>
+      </div>
+      <div class="symbol">
+       Rg
+      </div>
+      <div class="at_details">
+       Ruegeria
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id82">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        PS
+       </span>
+       <span class="number">
+        82
+       </span>
+      </div>
+      <div class="symbol">
+       Cn
+      </div>
+      <div class="at_details">
+       Corynebacterium
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id83">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        W
+       </span>
+       <span class="number">
+        83
+       </span>
+      </div>
+      <div class="symbol">
+       Uut
+      </div>
+      <div class="at_details">
+       Novosphingobium
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id84">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        WP
+       </span>
+       <span class="number">
+        84
+       </span>
+      </div>
+      <div class="symbol">
+       Fl
+      </div>
+      <div class="at_details">
+       Flexibacter
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id85">
+      <div class="at_num">
+       <span class="gram_shape">
+        VARIABL
+       </span>
+       <span class="feature">
+        VAIALEP
+       </span>
+       <span class="number">
+        85
+       </span>
+      </div>
+      <div class="symbol">
+       Uup
+      </div>
+      <div class="at_details">
+       Magnetococcus
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id86">
+      <div class="at_num">
+       <span class="gram_shape">
+        +B
+       </span>
+       <span class="feature">
+        S
+       </span>
+       <span class="number">
+        86
+       </span>
+      </div>
+      <div class="symbol">
+       Lv
+      </div>
+      <div class="at_details">
+       Lechevalieria
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id87">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        87
+       </span>
+      </div>
+      <div class="symbol">
+       Uus
+      </div>
+      <div class="at_details">
+       Tessaracoccus
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id88">
+      <div class="at_num">
+       <span class="gram_shape">
+        +B
+       </span>
+       <span class="feature">
+        S
+       </span>
+       <span class="number">
+        88
+       </span>
+      </div>
+      <div class="symbol">
+       Uuo
+      </div>
+      <div class="at_details">
+       Oligella
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="periodic-row">
+   </div>
+   <div class="periodic-row">
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+     <div class="element" id="id89">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        E
+       </span>
+       <span class="number">
+        89
+       </span>
+      </div>
+      <div class="symbol">
+       La
+      </div>
+      <div class="at_details">
+       Lactobacillus
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id90">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        S
+       </span>
+       <span class="number">
+        90
+       </span>
+      </div>
+      <div class="symbol">
+       Ce
+      </div>
+      <div class="at_details">
+       Cellvibrio
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id91">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        91
+       </span>
+      </div>
+      <div class="symbol">
+       Pr
+      </div>
+      <div class="at_details">
+       Prevotella
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id92">
+      <div class="at_num">
+       <span class="gram_shape">
+        +RF
+       </span>
+       <span class="feature">
+        SP
+       </span>
+       <span class="number">
+        92
+       </span>
+      </div>
+      <div class="symbol">
+       Nd
+      </div>
+      <div class="at_details">
+       Nocardia
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id93">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        S
+       </span>
+       <span class="number">
+        93
+       </span>
+      </div>
+      <div class="symbol">
+       Pm
+      </div>
+      <div class="at_details">
+       Promicromonospora
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id94">
+      <div class="at_num">
+       <span class="gram_shape">
+        +
+       </span>
+       <span class="feature">
+        PS
+       </span>
+       <span class="number">
+        94
+       </span>
+      </div>
+      <div class="symbol">
+       Sm
+      </div>
+      <div class="at_details">
+       Streptomyces
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id95">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        SWP
+       </span>
+       <span class="number">
+        95
+       </span>
+      </div>
+      <div class="symbol">
+       Eu
+      </div>
+      <div class="at_details">
+       Eubacterium
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id96">
+      <div class="at_num">
+       <span class="gram_shape">
+        +RB
+       </span>
+       <span class="feature">
+        SP
+       </span>
+       <span class="number">
+        96
+       </span>
+      </div>
+      <div class="symbol">
+       Gd
+      </div>
+      <div class="at_details">
+       Gordonia
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id97">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        WP
+       </span>
+       <span class="number">
+        97
+       </span>
+      </div>
+      <div class="symbol">
+       Tb
+      </div>
+      <div class="at_details">
+       Tepidibacter
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id98">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        SWX
+       </span>
+       <span class="number">
+        98
+       </span>
+      </div>
+      <div class="symbol">
+       Dy
+      </div>
+      <div class="at_details">
+       Dyadobacter
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id99">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        W
+       </span>
+       <span class="number">
+        99
+       </span>
+      </div>
+      <div class="symbol">
+       Ho
+      </div>
+      <div class="at_details">
+       Holospora
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id100">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        100
+       </span>
+      </div>
+      <div class="symbol">
+       Er
+      </div>
+      <div class="at_details">
+       Escherichia
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id101">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        WX
+       </span>
+       <span class="number">
+        101
+       </span>
+      </div>
+      <div class="symbol">
+       Tm
+      </div>
+      <div class="at_details">
+       Thermus
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id102">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        W
+       </span>
+       <span class="number">
+        102
+       </span>
+      </div>
+      <div class="symbol">
+       Yb
+      </div>
+      <div class="at_details">
+       Youngiibacter
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id103">
+      <div class="at_num">
+       <span class="gram_shape">
+        +C
+       </span>
+       <span class="feature">
+        E
+       </span>
+       <span class="number">
+        103
+       </span>
+      </div>
+      <div class="symbol">
+       Lu
+      </div>
+      <div class="at_details">
+       Leuconostoc
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="periodic-row">
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+    </div>
+    <div class="cell">
+     <div class="element" id="id104">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        E
+       </span>
+       <span class="number">
+        104
+       </span>
+      </div>
+      <div class="symbol">
+       Ac
+      </div>
+      <div class="at_details">
+       Acetobacter
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id105">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        W
+       </span>
+       <span class="number">
+        105
+       </span>
+      </div>
+      <div class="symbol">
+       Th
+      </div>
+      <div class="at_details">
+       Thalassomonas
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id106">
+      <div class="at_num">
+       <span class="gram_shape">
+        -C
+       </span>
+       <span class="feature">
+        WS
+       </span>
+       <span class="number">
+        106
+       </span>
+      </div>
+      <div class="symbol">
+       Pa
+      </div>
+      <div class="at_details">
+       Paracoccus
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id107">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        W
+       </span>
+       <span class="number">
+        107
+       </span>
+      </div>
+      <div class="symbol">
+       U
+      </div>
+      <div class="at_details">
+       Undibacterium
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id108">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        W
+       </span>
+       <span class="number">
+        108
+       </span>
+      </div>
+      <div class="symbol">
+       Np
+      </div>
+      <div class="at_details">
+       Neptunomonas
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id109">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        SW
+       </span>
+       <span class="number">
+        109
+       </span>
+      </div>
+      <div class="symbol">
+       Pu
+      </div>
+      <div class="at_details">
+       Pusillimonas
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id110">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        SWX
+       </span>
+       <span class="number">
+        110
+       </span>
+      </div>
+      <div class="symbol">
+       Am
+      </div>
+      <div class="at_details">
+       Amphibacillus
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id111">
+      <div class="at_num">
+       <span class="gram_shape">
+        -T
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        111
+       </span>
+      </div>
+      <div class="symbol">
+       Cm
+      </div>
+      <div class="at_details">
+       Campylobacter
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id112">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        PS
+       </span>
+       <span class="number">
+        112
+       </span>
+      </div>
+      <div class="symbol">
+       Bk
+      </div>
+      <div class="at_details">
+       Burkholderia
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id113">
+      <div class="at_num">
+       <span class="gram_shape">
+        -F
+       </span>
+       <span class="feature">
+        WX
+       </span>
+       <span class="number">
+        113
+       </span>
+      </div>
+      <div class="symbol">
+       Cf
+      </div>
+      <div class="at_details">
+       Chloroflexus
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id114">
+      <div class="at_num">
+       <span class="gram_shape">
+        +C
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        114
+       </span>
+      </div>
+      <div class="symbol">
+       Es
+      </div>
+      <div class="at_details">
+       Enterococcus
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id115">
+      <div class="at_num">
+       <span class="gram_shape">
+        -R
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        115
+       </span>
+      </div>
+      <div class="symbol">
+       Fm
+      </div>
+      <div class="at_details">
+       Fusobacterium
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id116">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        SX
+       </span>
+       <span class="number">
+        116
+       </span>
+      </div>
+      <div class="symbol">
+       Md
+      </div>
+      <div class="at_details">
+       Modestobacter
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id117">
+      <div class="at_num">
+       <span class="gram_shape">
+        +R
+       </span>
+       <span class="feature">
+        SP
+       </span>
+       <span class="number">
+        117
+       </span>
+      </div>
+      <div class="symbol">
+       No
+      </div>
+      <div class="at_details">
+       Nonomurea
+      </div>
+     </div>
+    </div>
+    <div class="cell">
+     <div class="element" id="id118">
+      <div class="at_num">
+       <span class="gram_shape">
+        -T
+       </span>
+       <span class="feature">
+        P
+       </span>
+       <span class="number">
+        118
+       </span>
+      </div>
+      <div class="symbol">
+       Lr
+      </div>
+      <div class="at_details">
+       Leptospira
+      </div>
+     </div>
+    </div>
+   </div>
+   <div style="clear: both;">
+   </div>
+  </div>
+ </body>
+</html>

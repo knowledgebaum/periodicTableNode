@@ -1,0 +1,343 @@
+body {
+  font-family: Arial;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.periodic {
+  position: relative;
+  height: 200px;
+  margin-right: -1px;
+  text-shadow: none;
+}
+.periodic-row {
+  clear: both;
+  height: 10%;
+}
+.cell {
+  float: left;
+  position: relative;
+  width: 5.55%;
+  height: 100%;
+}
+.element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 1px;
+  right: 1px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 4px rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  text-align: center;
+  cursor: default;
+  pointer-events: none;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  background-color: rgba(0, 128, 128, 0.6);
+}
+.cell:hover .element {
+  border-color: rgba(0, 0, 0, 0.1);
+  -webkit-transform: scale(3, 3);
+  -ms-transform: scale(3, 3);
+  transform: scale(3, 3);
+  z-index: 1;
+  background-color: rgba(0, 128, 128, 0.9);
+}
+.at_num {
+  //position: absolute;
+  font-size: 4px;
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 0;
+  top: 4px;
+  //right: 5px;
+
+}
+.properties{
+  border: black 1px solid;
+  clear: right
+
+}
+
+
+span{
+  position: relative;
+  float: left;
+  width: 33%;
+  display: table;
+  background-color:#bbb
+
+}
+
+
+
+/*.gram_shape{*/
+  /*text-indent: 5em;*/
+    /*border: royalblue 1px solid*/
+
+/*}*/
+
+/*.feature{*/
+  /*right: 5px;*/
+    /*border: black 1px solid*/
+/*}*/
+
+/*.number{*/
+    /*border: red 1px solid*/
+/*}*/
+
+.at_details {
+  position: absolute;
+  font-size: 4px;
+  color: rgba(255, 255, 255, 0.5);
+  opacity: 0;
+}
+
+.symbol {
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  right: 0px;
+  margin-top: -4px;
+  font-size: 9px;
+  line-height: 1;
+  height: 9px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.at_details {
+  bottom: 4px;
+  left: 0px;
+  right: 0px;
+}
+/*BE col*/
+
+.cell:nth-child(-n+2) .element,
+.cell:nth-child(n+13) .element {
+  background-color: rgba(0, 160, 96, 0.6);
+}
+/*H col and some to right like C */
+
+
+.cell:nth-child(1) .element,
+.periodic-row:nth-child(2) .cell:nth-child(n+14) .element,
+.periodic-row:nth-child(3) .cell:nth-child(n+15) .element,
+.periodic-row:nth-child(4) .cell:nth-child(n+16) .element,
+.periodic-row:nth-child(5) .cell:nth-child(n+17) .element {
+  background-color: rgba(0, 192, 64, 0.6);
+}
+.periodic-row:nth-child(-n+6) .cell:nth-child(18) .element {
+  background-color: rgba(64, 192, 0, 0.6);
+}
+.periodic-row:nth-child(n+9) .element {
+  background-color: rgba(0, 96, 160, 0.6);
+}
+.cell:nth-child(-n+2):hover .element,
+.cell:nth-child(n+13):hover .element {
+  background-color: rgba(0, 160, 96, 0.9);
+}
+.cell:nth-child(1):hover .element,
+.periodic-row:nth-child(2) .cell:nth-child(n+14):hover .element,
+.periodic-row:nth-child(3) .cell:nth-child(n+15):hover .element,
+.periodic-row:nth-child(4) .cell:nth-child(n+16):hover .element,
+.periodic-row:nth-child(5) .cell:nth-child(n+17):hover .element {
+  background-color: rgba(0, 192, 64, 0.9);
+}
+.periodic-row:nth-child(-n+6) .cell:nth-child(18):hover .element {
+  background-color: rgba(64, 192, 0, 0.9);
+}
+.periodic-row:nth-child(n+9) .cell:hover .element {
+  background-color: rgba(0, 96, 160, 0.9);
+}
+.cell:nth-child(1) .element {
+  -webkit-transform-origin: 0 50%;
+  -ms-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+}
+.cell:nth-child(18) .element {
+  -webkit-transform-origin: 100% 50%;
+  -ms-transform-origin: 100% 50%;
+  transform-origin: 100% 50%;
+}
+.periodic-row:nth-child(10) .cell .element {
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+}
+.periodic-row:nth-child(1) .cell:nth-child(1) .element {
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+.periodic-row:nth-child(1) .cell:nth-child(18) .element {
+  -webkit-transform-origin: 100% 0;
+  -ms-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+.periodic-row:nth-child(10) .cell:nth-child(18) .element {
+  -webkit-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+@media (min-width: 600px) {
+  .periodic {
+    height: 460px;
+    margin-right: -2px;
+  }
+  .element {
+    right: 2px;
+    bottom: 2px;
+  }
+  .at_num,
+  .at_details {
+    font-size: 4px;
+    opacity: 1;
+  }
+  .symbol {
+    margin-top: -17px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    height: 30px;
+    color: rgba(255, 255, 255, 0.75);
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+  }
+}
+@media (min-width: 800px) {
+  .periodic {
+    height: 540px;
+  }
+  .symbol {
+    font-size: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .periodic {
+    height: 680px;
+  }
+  .at_num,
+  .at_details {
+    font-size: 5px;
+  }
+  .symbol {
+    font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .periodic {
+    height: 800px;
+  }
+  .at_num,
+  .at_details {
+    font-size: 6px;
+  }
+  .symbol {
+    font-size: 30px;
+  }
+}
+
+    /*TITLES AND KEYS
+
+    */
+    /*Table Title*/
+    .title{
+      position: fixed;
+      font-size: 45px;
+      color: dimgrey;
+
+    }
+    /*Key */
+    .key {
+        font-weight: bold;
+      color: #696969;
+        font-size: 11px;
+        border: #696969 solid 2px;
+        width: 425px;
+        overflow: hidden;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /*KEY TITLE*/
+    div > div > h2 {
+        text-align: center;
+        text-decoration: underline;
+    }
+
+    /*COLUMN TITLE*/
+    div > h3 {
+
+        text-decoration: underline;
+        //border: black solid 2px;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    /*COLUMN*/
+    .column {
+        float: left;
+        width: 33.33%;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+
+
+    }
+
+/*#########################################################################
+ Cell Color
+
+ ##########################################################################
+
+/*!*green*!*/
+/*#id1 ,#id6 ,#id7 ,#id8 ,#id15 ,#id16 ,#id34 {*/
+/*background-color: #ACFF4E*/
+ /*}*/
+
+/*!*peach*!*/
+/*#id3 ,#id11 ,#id19 ,#id37 ,#id55 ,#id87 {*/
+/*background-color: #FFC490*/
+ /*}*/
+
+/*!*dark-pink*!*/
+/*#id4 ,#id12 ,#id20 ,#id38 ,#id56 ,#id88 {*/
+/*background-color: #E48FFF*/
+ /*}*/
+
+/*!*teal*!*/
+/*#id21 ,#id22 ,#id23 ,#id24 ,#id25 ,#id26 ,#id27 ,#id28 ,#id29 ,#id30 ,#id39 ,#id40 ,#id41 ,#id42 ,#id43 ,#id44 ,#id45 ,#id46 ,#id47 ,#id48 {*/
+/*background-color: #95F3E3*/
+ /*}*/
+
+/*!*light-pink*!*/
+/*#id57 ,#id58 ,#id59 ,#id60 ,#id61 ,#id62 ,#id63 ,#id64 ,#id65 ,#id66 ,#id67 ,#id68 ,#id69 ,#id70 ,#id71 {*/
+/*background-color: #EAAFCD*/
+ /*}*/
+
+/*!*light-purple*!*/
+/*#id89 ,#id90 ,#id91 ,#id92 ,#id93 ,#id94 ,#id95 ,#id96 ,#id97 ,#id98 ,#id99 ,#id100 ,#id101 ,#id102 ,#id103 {*/
+/*background-color: #C7B7F6*/
+ /*}*/
+
+/*!*brown-green-grey*!*/
+/*#id5 ,#id14 ,#id32 ,#id33 ,#id51 ,#id52 ,#id84 {*/
+/*background-color: #BEC987*/
+ /*}*/
+
+/*!*blue*!*/
+/*#id12 ,#id31 ,#id49 ,#id50 ,#id81 ,#id82 ,#id83 {*/
+/*background-color: #8DCBFC*/
+ /*}*/
+
+/*!*yellow*!*/
+/*#id9 ,#id17 ,#id35 ,#id53 ,#id85 {*/
+/*background-color: #EEFF00*/
+ /*}*/
+
+/*!*light-green*!*/
+/*#id2 ,#id10 ,#id18 ,#id36 ,#id54 ,#id86 {*/
+/*background-color: #D4F8AE*/
+ /*}*/
+
+/*!*white*!*/
+/*#id113 ,#id114 ,#id115 ,#id116 ,#id117 ,#id118 {*/
+/*background-color: #E5EBEB*/
+ /*}*/
+
